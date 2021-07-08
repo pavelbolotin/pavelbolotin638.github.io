@@ -1,0 +1,335 @@
+
+
+:root {
+    --orange: rgb(246, 185, 31)
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.orange-text {
+    color: var(--orange)
+}
+
+body {
+    font-family: oswald, sans-serif
+}
+
+nav {
+    background: 0 0
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 300
+}
+
+header,
+#order {
+    background: url(../img/main_bg.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-height: 700px
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.header_title {
+    font-size: 2.9rem;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase
+}
+
+.section_title {
+    text-align: center
+}
+
+.section_subtitle {
+    text-align: center;
+    font-size: 2rem;
+    color: #e65100
+}
+
+.section_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.brand-logo {
+    text-transform: uppercase;
+    font-weight: 900
+}
+
+.video-container {
+    width: 100%
+}
+
+.order_btn {
+    margin: 2rem 0
+}
+
+#video {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/19848528_1280.jpg') fixed;
+    background-size: cover;
+    padding-bottom: 2rem
+}
+
+#discount {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/21456768_1920.jpg');
+    background-size: cover
+}
+
+.header_title:after {
+    display: block;
+    content: 'Экзотика, доступная каждому!';
+    font-size: 2rem;
+    text-transform: lowercase
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 2rem 0
+}
+
+.price {
+    text-align: center
+}
+
+.guarantee {
+    color: var(--orange)
+}
+
+.price_new {
+    color: var(--orange);
+    font-size: 3rem;
+    font-weight: bolder
+}
+
+.price_old {
+    color: red;
+    text-decoration: line-through
+}
+
+.header_list li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+.header_img {
+    margin-bottom: 1rem;
+    width: 100px;
+    height: 100px
+}
+
+.timer {
+    display: flex;
+    font-size: 46px;
+    justify-content: center;
+    font-weight: 200;
+    margin: 1rem 0
+}
+
+.hr:after,
+.min:after {
+    content: ':'
+}
+
+#sec_1 h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+#sec_1 img {
+    width: 150px
+}
+
+.sec1_text q {
+    display: block;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    border-left: 1px solid #000;
+    font-weight: 600
+}
+
+.sec1_text p {
+    font-weight: 100;
+    margin: 0
+}
+
+.author_name {
+    font-size: 2rem
+}
+
+.author_text span {
+    color: #e65100;
+    font-weight: 900
+}
+
+#review {
+    margin-bottom: 2rem
+}
+
+#delivery {
+    padding: 1rem 0
+}
+
+footer {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff
+}
+
+.step {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    flex-direction: column
+}
+
+.step_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 70px;
+    margin-bottom: 2rem;
+    height: 70px
+}
+
+.step_icon img{
+    width: 70%;
+}
+.order_content {
+    text-align: center
+}
+
+form {
+    margin-top: 4rem;
+    background: #fff;
+    border-radius: 8px;
+    padding: 2rem
+}
+
+input {
+    border-radius: 0;
+    background-color: transparent;
+    color: currentColor;
+    padding-left: 0;
+    padding-right: 0;
+    opacity: .5
+}
+
+#submit {
+    color: #fff;
+    opacity: 1;
+    margin-bottom: 0
+}
+
+.form-field-submit i {
+    width: 100%
+}
+
+#name,
+#phone {
+    height: 2rem;
+    opacity: 1;
+    color: #000
+}
+
+label {
+    color: #000
+}
+
+.form_title,
+.form_subtitle {
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 1.5rem
+}
+
+.form_content p {
+    font-size: 3rem
+}
+
+.form_subtitle {
+    font-weight: 400;
+    font-size: 2rem
+}
+
+.review_container {
+    width: 500px;
+    margin: 0 auto
+}
+
+.card .card-content {
+    height: 5rem
+}
+
+.header_list {
+    font-size: 1.3rem
+}
+
+.header_list li {
+    margin-top: 1rem;
+    font-size: 1.3rem
+}
+
+.three {
+    font-size: 2rem
+}
+
+.complect {
+    text-align: center
+}
+
+@media screen and (max-width:600px) {
+    .review_container {
+        width: 100%
+    }
+}
+
+
+.video-container {
+ position: relative;
+ padding-bottom: 56.25%;
+ height: 0;
+ overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed,
+.video-container .youtube {
+ background: #000;
+ border: none;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
+button{
+    width: 100%;
+}
